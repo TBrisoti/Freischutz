@@ -58,6 +58,29 @@
     display: none;
 }
 
+.container_titulo {
+    font-weight: 400;
+    display: block;
+}
+        
 @media screen and (min-width: 1024px) {
   /* Estilos para tablets */
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container_titulo,
+    .container_titulo--negrito {
+        font-family: var(--fonte-secundario);
+        font-size: 30px;
+    }
+    
+    .container_titulo {
+        font-weight: 400;
+    }
+    
+    .container_titulo--negrito {
+        font-weight: 700;
+    }
+    
 }
