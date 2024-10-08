@@ -62,7 +62,11 @@
     font-weight: 400;
     display: block;
 }
-        
+
+.opções {
+    display: none
+}        
+
 @media screen and (min-width: 1024px) {
   /* Estilos para tablets */
 }
@@ -90,6 +94,7 @@
 
 .opções__link {
     text-decoration: none
+    color: var(--preto)
 }
     
     .container_titulo--negrito {
